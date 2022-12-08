@@ -1,0 +1,118 @@
+/* do nottttt */
+
+/*
+HSL
+*/
+
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+
+/* Bottom HorizontalServerList. Simply remove the comments surrounding the @import to enable it. */
+/* @import url("https://discordstyles.github.io/Addons/bottomhsl.css"); */
+
+:root {
+  --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+  --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
+}
+/*
+--
+*/
+
+/*
+Button obliteration
+*/
+
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > nav > ul > div.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt > div:nth-child(6),
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > nav > ul > div.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt > div:nth-child(7) {
+  display: none !important;
+}
+
+.button-f2h6uQ[aria-label="Send a gift"]
+{
+  display: none;
+}
+
+/*
+Chat
+*/
+
+.chatContent-3KubbW {
+  background-image: url("https://i.kym-cdn.com/photos/images/facebook/001/830/090/47d.jpg");
+  background-size: cover;
+}
+
+.messagesWrapper-RpOMA3 {
+  background-color: rgba(0,0,0,0.955);
+}
+
+.scrollableContainer-15eg7h {
+  background-color: black;
+  border-radius: 0px;
+  padding-bottom: 5px;
+  box-shadow: 0px -5px 15px 9px rgba(0,0,0,0.8);
+  padding-top: 6px;
+}
+
+.wrapper-2SplAX {
+  background-color: black;
+  border-radius: 0px;
+  box-shadow: 0px -5px 15px 9px rgba(0,0,0,0.8);
+}
+
+[class*="channelTextArea-"]>[class*="scrollableContiner"] {
+  border-top: var(--background-modifier-accent) 1px solid;
+  border-radius: 1px;
+}
+
+[class*="chatContent-"]>[class*="form-"] {
+  padding: 0px;
+}
+
+[class*="channelTextArea-"]>[class*="scrollableContainer"]>[class*="inner-"] {
+  min-height: 53px;
+}
+
+[class*="channelTextArea-"]>[class*="scrollableContainer"]>[class*="inner-"]>[class*="textArea-"],
+[class*="channelTextArea-"]>[class*="scrollableContainer"]>[class*="inner-"]>[class*="buttons-"] {
+  padding-top: 2.2px;
+}
+
+[class*="attachButton-"] {
+  padding-top: 15.2px;
+}
+
+[class*="contentWrapper-"] {
+  right: 15px;
+}
+
+#channel-attach {
+  left: 15px;
+}
+
+[class*="typing-"] {
+  bottom: 55px;
+}
+
+[class*="cooldownWrapper-"] {
+  background-color:  var(--background-primary);
+  padding: 0px 6px 0px 6px;
+  border-radius: 5px;
+}
+
+[class*="typingDots-"] {
+  background-color:  var(--background-primary);
+  padding: 0px 6px 0px 6px;
+  border-radius: 5px;
+}
+
+[class*="channelTextArea-"] {
+  margin-bottom: 0px;
+}
+
+[class*="buttons-"]>[class*="separator-"] {
+  margin-left: 0px;
+}
+
+[class*="buttons-"]>[class*="separator-"]::before {
+  display: none;
+}
