@@ -1,4 +1,7 @@
-.backgroundContainer
-{
-    background-color: black !important;
+.backgroundContainer,
+.dialog,
+.nowPlayingPlaylist,
+.nowPlayingContextMenu,
+html {
+    background-color: #000000 !important;
 }
